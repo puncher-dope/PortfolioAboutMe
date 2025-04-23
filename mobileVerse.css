@@ -13,6 +13,14 @@
     padding: 0;
   }
 
+
+  a:focus,
+  btn:focus,
+  input:focus {
+    -webkit-tap-highlight-color: transparent;
+    outline: none
+  }
+
   section {
     max-width: 1400px;
     width: 100%;
