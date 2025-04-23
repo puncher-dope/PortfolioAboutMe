@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="index.css"> -->
+  <link rel="stylesheet" href="mobileVerse.css">
+  <script defer src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <main>
+
+
+
+
+    <nav class="navbar">
+      <ul class="link-group">
+        <!-- <li id="home" class="close"> <a href="#"><box-icon name='collapse-horizontal'></box-icon></a></li> -->
+        <li id="home" class="link active"> <a href="#"><box-icon name='child'></box-icon></a></li>
+        <li id="projects" class="link "><a href="#"><box-icon name='book-bookmark'></box-icon></a></li>
+        <li id="me" class="link"><a href="#"><box-icon name='cool'></box-icon>
+        <li id="contact" class="link"><a href="#"><box-icon name='street-view'></box-icon></a></li></a></li>
+      </ul>
+    </nav>
+
+
+    <section id="sectionHome" class="home-section nonActive active">
+      <!-- <span class=" open"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" -->
+      <!-- style="fill: rgb(255, 255, 255);transform: msFilter"> -->
+      <!-- <path -->
+      <!-- d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"> -->
+      <!-- </path> -->
+      <!-- </svg></span> -->
+      <h1 class="hero-heading">Привет, я Костя</h1>
+      <img src="/me.jpg" alt="Моя фотография" class="home-img">
+    </section>
+
+
+
+
+
+    <section id="sectionProjects" class="project-section nonActive">
+      <h1 class="project-heading">Некоторые мои работы</h1>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="/vite.png" class="project-img" alt="vite проект">
+          <div class="project-content">
+            <h1 class="project-title">project 01</h1>
+            <p class="project-info">
+              Проект "Vite positive Landing. Это мой первый незаконченный проект, который я писал на React.js, со
+              сборщиком Vite. Не закончил, потому что более не видел в нем практического назначения"
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">Смотреть сейчас</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/bot.png" class="project-img" alt="Телегарамм бот">
+          <div class="project-content">
+            <h1 class="project-title">project 02</h1>
+            <p class="project-info">
+              Проект "ПуриПури горячий не как любовь, а как мой ноутбук". Писал его с практическим
+              использованием для персонала. Бот показывает составы блюд и напитков. Ходят слух, что он
+              понравился официантам.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">Смотреть сейчас</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/aboutMeСнимок.PNG" class="project-img" alt="Телегарамм бот">
+          <div class="project-content">
+            <h1 class="project-title">project 03</h1>
+            <p class="project-info">
+              Еще одним проектом считаю эту информационную страницу. Вложу в нее побольше любви к программированию и
+              себе.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">Смотреть сейчас</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-section">
+        <h1 class="heading">Мои навыки</h1>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="/html.png" class="skill-img" alt="">
+            <div class="skill-level">82%</div>
+            <h1 class="skill-name">HTML</h1>
+            <p class="skill-info">Навыков HTML у меня хватит, что бы красочно описать семантическую бессмысленницу.
+              Шучу.(Ох уж этот div'атос)</p>
+          </div>
+
+          <div class="skill-card">
+            <img src="/css.png" class="skill-img" alt="">
+            <div class="skill-level">82%</div>
+            <h1 class="skill-name">CSS</h1>
+            <p class="skill-info">С этой штукой лучше быть поакууратнее. В один день ты Мэрилин Монро,в другой - Мэрилин
+              Мэнсон</p>
+          </div>
+
+          <div class="skill-card">
+            <img src="/js.png" class="skill-img" alt="">
+            <div class="skill-level">88%</div>
+            <h1 class="skill-name">JavaScript</h1>
+            <p class="skill-info">try{написать красивый код}catch{ мысль как решить ошибку в час ночи}</p>
+          </div>
+
+          <div class="skill-card">
+            <img src="/node.png" class="skill-img" alt="">
+            <div class="skill-level">80%</div>
+            <h1 class="skill-name">Node.js</h1>
+            <p class="skill-info">Нода так хороша...DAMN</p>
+          </div>
+          <div class="skill-card">
+            <img src="/react.png" class="skill-img" alt="">
+            <div class="skill-level">85%</div>
+            <h1 class="skill-name">React.js</h1>
+            <p class="skill-info">Это самая вкусная штука, которую я изучил! Я - VDOM, а DOM я еще не купил и живу с
+              мамой.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="sectionMe" class="about-section nonActive">
+      <div class="about">
+        <div class="about-img-container">
+          <img src="/meOnTheRiver.jpg" class="about-img" alt="meOnTheRiver">
+          <button class="download-cv-btn">downlaod cv</button>
+        </div>
+        <p class="about-info">На момент написания данного текста мне 21 год, я сижу в маленькой комнате с одним
+          стареньким
+          ноутбуком, который мне подарили в 12 лет, и работаю барменом. До этого работал официантом, поваром, грузчиком,
+          а
+          в армии был офисным клерком. Имею СПО(Специалист по информационной безопасности, но если честно это лишь
+          корочка) и мечтаю стать в будущем Frontend Developer. На самом деле с детства была некая мечта сидеть за
+          компьтером и копаться в горе кода. Моих углублений не хватило, что бы сидеть в Linux и писать на Python
+          приложения для пентеста, да и вообще эта тема завлекала лишь малость в подростковом возрасте. Сейчас хочу
+          углублённо заняться Frontend, потому что чувствую к этой профессии жаркий интерес и бесконечноть знаний,
+          которые
+          могу расширять до конца жизни. Люблю учиться, люблю спорт, люблю музыку и не люблю кинзу...Ну правда, как
+          можно
+          любить эту траву...</p>
+      </div>
+      <div class="timeline">
+        <h1 class="heading">образование и опыт</h1>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">2017-2018</h1>
+            <p class="card-detail">Поступаю в колледж на бюджетное образование, проходя по баллам. Балл у меня был не
+              самый лучший, но я и не был последним</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">2019-2020</h1>
+            <p class="card-detail">Активно изучаем в колледже Pascal и задаём некую базу алгоритмизации. Изучаем
+              postgreSQL, CiscoPacketTracer. Приходим к выводу, что 18 лет-это отличный способ прое$ать время не на
+              учёбу,
+              а "на молодость".</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">2021-2022</h1>
+            <p class="card-detail">Учимся по модулям, готовим курсовые и готовимся к дипломной работе. Она у меня кстати
+              вышла одна из самых лучших, как сказали на комиссии, тема была: "Разработка рекомендаций по применению
+              SecretNetStudio на серверах."</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">2023-2024</h1>
+            <p class="card-detail">Трачу время в армии, работаю офисным клерком по позывному "Хакер роты охраны". Сна
+              меньше, чем у других, а работы больше...Но зато всегда на связи и в уважении офицеров.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">2024-2025</h1>
+            <p class="card-detail">Полное погружение в учебу. HTML, CSS, JavaScript, React.js, Redux.js, Node.js,
+              Package
+              manager:
+              Vite, NPM, в дальнейшем не стану скрывать желание изучить и понять: Bootstrap, Tailwind,SCSS, Vue.js.
+              Может
+              даже несколько месяцев на Backend, немного Python с MongoDB и postgreSQL.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="sectionContact" class="contact-section nonActive ">
+      <form class="contact-form">
+        <h1 class="contact-heading">Вы можете написать мне</h1>
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="Ваше имя">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="Ваша почта">
+        <textarea name="msg" id="msg" placeholder="Ваше сообщение" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">Написать</button>
+      </form>
+      <!-- map -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43462.717880388715!2d39.37986221348932!3d47.090839063367746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e39368e2fee981%3A0xe6b51267308be2b7!2z0JDQt9C-0LIsINCg0L7RgdGC0L7QstGB0LrQsNGPINC-0LHQuy4!5e0!3m2!1sru!2sru!4v1744644259255!5m2!1sru!2sru"
+          style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
