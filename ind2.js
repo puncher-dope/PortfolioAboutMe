@@ -30,6 +30,5 @@ function moveOr(size) {
     projects.innerText = 'Projects'
     me.innerText = 'Me'
     contact.innerText = 'Contact'
-
-  }
+  } return
 }

@@ -25,6 +25,48 @@ body {
   font-family: sans-serif;
 }
 
+/* ======================================Ошибки */
+.spanError {
+  font-size: 1rem;
+  font-weight: 600;
+  color: red;
+}
+
+.error {
+  border: 2px solid red;
+  padding: 0;
+}
+
+#forName {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#forEmail {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+forText {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media(min-width: 320px) {
 
   a:focus,
@@ -521,6 +563,11 @@ body {
     position: relative;
   }
 
+  .contact-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .contact-form input,
   .contact-form textarea {
     margin: 20px;
@@ -530,7 +577,7 @@ body {
     border: 1px solid #fff;
     margin-bottom: 10px;
     border-radius: 5px;
-    text-transform: capitalize;
+    text-transform: none;
     color: #fff;
     padding: 5px 10px;
   }
@@ -550,7 +597,6 @@ body {
     color: #fff;
     text-transform: capitalize;
     padding: 5px 20px;
-    display: block;
     margin: auto;
     border: none;
     border-radius: 10px;
@@ -558,7 +604,7 @@ body {
   }
 
   .map {
-    margin: 20px;
+    margin: 20px 25px;
     width: 80%;
     padding: 5px;
     border: 2px solid #fff;
@@ -1094,6 +1140,7 @@ body {
     border: 1px solid #191919;
     color: #fff;
     background-color: #754b4b;
+    text-transform: none;
   }
 
   ::placeholder {
@@ -1119,7 +1166,7 @@ body {
   }
 
   .map {
-    margin: 20px;
+    margin: 20px 30px;
     width: 80%;
     padding: 5px;
     border: 2px solid #fff;
@@ -1655,6 +1702,7 @@ body {
     color: #fff;
     background-color: #754b4b;
     margin-right: 0;
+    text-transform: none;
   }
 
   ::placeholder {
@@ -1681,7 +1729,7 @@ body {
   }
 
   .map {
-    margin: 20px;
+    margin: 20px 35px;
     width: 85%;
     padding: 5px;
     border: 2px solid #fff;
@@ -2062,8 +2110,8 @@ body {
   }
 
   .timeline .heading {
-    margin-bottom: 5rem;
-    font-size: 1.5em;
+    margin-bottom: 10rem;
+    font-size: 3em;
   }
 
   /* =====================================карточки */
@@ -2072,7 +2120,7 @@ body {
     padding: 10px;
     border-radius: 10px;
     display: block;
-    margin: -15% 0 0 2%;
+    margin: -15% 0 15% 2%;
     position: relative;
     background: #f00;
   }
@@ -2085,7 +2133,7 @@ body {
   .card:nth-child(even):before {
     content: '';
     position: absolute;
-    left: -12%;
+    left: -17%;
     top: 50%;
     transform: translateY(-50%);
     width: 10px;
@@ -2098,10 +2146,10 @@ body {
   .card:nth-child(even):after {
     content: '';
     position: absolute;
-    left: -5.5%;
+    left: -13%;
     top: 50%;
     transform: translateY(-50%);
-    width: 15px;
+    width: 13%;
     height: 5px;
     background: #fff;
     z-index: -1;
@@ -2111,7 +2159,7 @@ body {
   .card:nth-child(odd):before {
     content: '';
     position: absolute;
-    right: -15%;
+    right: -17%;
     top: 50%;
     transform: translateY(-50%);
     width: 10px;
@@ -2124,10 +2172,10 @@ body {
   .card:nth-child(odd):after {
     content: '';
     position: absolute;
-    right: -7.5%;
+    right: -13%;
     top: 50%;
     transform: translateY(-50%);
-    width: 15px;
+    width: 20%;
     height: 5px;
     background: #fff;
     z-index: -1;
@@ -2162,7 +2210,7 @@ body {
   .card:nth-child(even) .card-body:before {
     content: '';
     position: absolute;
-    left: -8%;
+    left: -15%;
     top: -15%;
     width: 0px;
     height: 140%;
@@ -2215,6 +2263,7 @@ body {
     color: #fff;
     background-color: #754b4b;
     margin-right: 0;
+    text-transform: none;
   }
 
   ::placeholder {
@@ -2241,7 +2290,7 @@ body {
   }
 
   .map {
-    margin: 20px;
+    margin: 20px 55px;
     width: 85%;
     padding: 5px;
     border: 2px solid #fff;
@@ -2345,7 +2394,7 @@ body {
     height: 100vh;
     width: 50%;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 0.6;
   }
 
   .home-section {
@@ -2376,11 +2425,11 @@ body {
 
   .project-heading {
     font-size: 100px;
-    background: #252525;
+    background: #836868;
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 50px;
-    color: #1a1a1a;
+    color: #b36e6e;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
@@ -2754,9 +2803,9 @@ body {
     height: 40px;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-radius: 5px;
-    text-transform: capitalize;
+    text-transform: none;
     color: #fff;
     padding: 5px 10px;
   }
@@ -2774,16 +2823,19 @@ body {
   .form-submit-btn {
     background: #ff4f4f;
     color: #fff;
+    font-size: 1rem;
     text-transform: capitalize;
     padding: 15px 40px;
     display: block;
-    margin: auto;
+    width: 100%;
+    margin: 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
   }
 
   .map {
+    margin: 5px;
     width: 100%;
     height: 100%;
     padding: 10px;

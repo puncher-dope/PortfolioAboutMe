@@ -38,8 +38,8 @@
               сборщиком Vite. Не закончил, потому что более не видел в нем практического назначения"
             </p>
             <div class="project-btn-grp">
-              <button class="project-btn github">github repo</button>
-              <button class="project-btn live">Смотреть сейчас</button>
+              <button class="project-btn github" id="gitVite">github repo</button>
+              <button class="project-btn live" id="onlineVite">Смотреть сейчас</button>
             </div>
           </div>
         </div>
@@ -53,11 +53,12 @@
               понравился официантам.
             </p>
             <div class="project-btn-grp">
-              <button class="project-btn github">github repo</button>
-              <button class="project-btn live">Смотреть сейчас</button>
+              <button class="project-btn github" id="gitBot">github repo</button>
+              <button class="project-btn live" id="onlineBot">Смотреть сейчас</button>
             </div>
           </div>
         </div>
+
         <div class="project-card">
           <img src="/aboutMeСнимок.PNG" class="project-img" alt="Телегарамм бот">
           <div class="project-content">
@@ -67,8 +68,23 @@
               себе.
             </p>
             <div class="project-btn-grp">
-              <button class="project-btn github">github repo</button>
-              <button class="project-btn live">Смотреть сейчас</button>
+              <button class="project-btn github" id="gitPortfolio">github repo</button>
+              <button class="project-btn live" id="onlinePortfolio">Смотреть сейчас</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="/matrix.PNG" class="project-img" alt="Матрица с терминалом">
+          <div class="project-content">
+            <h1 class="project-title">project 04</h1>
+            <p class="project-info">
+              Не особо значимый проект, но наверное имеет место быть - окно с эффектом падающих символом с терминалом,
+              имитиррующим Linux OS.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github" id="gitMatrix">github repo</button>
+              <button class="project-btn live" id="onlineMatrix">Смотреть сейчас</button>
             </div>
           </div>
         </div>
@@ -182,12 +198,19 @@
       </div>
     </section>
     <section id="sectionContact" class="contact-section nonActive ">
-      <form class="contact-form">
+      <form class="contact-form" id="form" method="post" action="/..">
         <h1 class="contact-heading">Вы можете написать мне</h1>
-        <input type="text" name="name" id="name" autocomplete="off" placeholder="Ваше имя">
-        <input type="text" name="email" id="email" autocomplete="off" placeholder="Ваша почта">
-        <textarea name="msg" id="msg" placeholder="Ваше сообщение" autocomplete="off"></textarea>
-        <button type="submit" class="form-submit-btn">Написать</button>
+        <div id="forName" class="inputName">
+          <input type="text" data-required="true" data-min-length="2" data-max-length="14" name="name" id="name"
+            autocomplete="off" placeholder="Ваше имя">
+        </div>
+        <div id="forEmail" class="inputEmail">
+          <input type="email" data-required="true" name="email" id="email" autocomplete="off" placeholder="Ваша почта">
+        </div>
+        <div id="forText" class="inputText">
+          <textarea name="msg" id="msg" placeholder="Ваше сообщение" autocomplete="off"></textarea>
+        </div>
+        <button type="submit" class="form-submit-btn" id="btnSubmit">Написать</button>
       </form>
       <!-- map -->
       <div class="map">
@@ -215,7 +238,8 @@
 
 
 
-  <script src="ind2.js"></script>
+  <!-- <script src="ind2.js"></script> -->
+  <script src="index.js"></script>
 </body>
 
 </html>
