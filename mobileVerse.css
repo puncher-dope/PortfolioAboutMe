@@ -37,35 +37,7 @@ body {
   padding: 0;
 }
 
-#forName {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-#forEmail {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-forText {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 @media(min-width: 320px) {
 
@@ -574,12 +546,42 @@ forText {
     width: 80%;
     height: 15px;
     background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     margin-bottom: 10px;
     border-radius: 5px;
     text-transform: none;
     color: #fff;
     padding: 5px 10px;
+  }
+
+  #forName {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forEmail {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   ::placeholder {
@@ -605,7 +607,7 @@ forText {
 
   .map {
     margin: 20px 25px;
-    width: 80%;
+    width: 85%;
     padding: 5px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0.2);
@@ -666,7 +668,7 @@ forText {
 
   .home-img {
     position: absolute;
-    left: 34%;
+    left: 31%;
     top: 10%;
     height: 150px;
     width: 150px;
@@ -1143,6 +1145,36 @@ forText {
     text-transform: none;
   }
 
+  #forName {
+    width: 90%;
+    padding: 10px 5%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forEmail {
+    width: 90%;
+    padding: 10px 5%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forText {
+    width: 90%;
+    padding: 10px 5%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   ::placeholder {
     color: #fff;
   }
@@ -1166,8 +1198,8 @@ forText {
   }
 
   .map {
-    margin: 20px 30px;
-    width: 80%;
+    margin: 20px 40px;
+    width: 75%;
     padding: 5px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0.2);
@@ -1705,6 +1737,36 @@ forText {
     text-transform: none;
   }
 
+  #forName {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forEmail {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forText {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   ::placeholder {
     color: #fff;
   }
@@ -1730,7 +1792,7 @@ forText {
 
   .map {
     margin: 20px 35px;
-    width: 85%;
+    width: 80%;
     padding: 5px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0.2);
@@ -2264,6 +2326,36 @@ forText {
     background-color: #754b4b;
     margin-right: 0;
     text-transform: none;
+  }
+
+  #forName {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forEmail {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forText {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   ::placeholder {
@@ -2806,8 +2898,39 @@ forText {
     margin-bottom: 20px;
     border-radius: 5px;
     text-transform: none;
+    font-size: 14px;
     color: #fff;
     padding: 5px 10px;
+  }
+
+  #forName {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forEmail {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #forText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   ::placeholder {
@@ -2835,7 +2958,7 @@ forText {
   }
 
   .map {
-    margin: 5px;
+    margin: 5px 15px;
     width: 100%;
     height: 100%;
     padding: 10px;
