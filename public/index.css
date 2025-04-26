@@ -791,7 +791,7 @@ body {
     font-size: 10px;
     font-weight: 400;
     text-align: center;
-    color: #000;
+    color: #5fc400;
   }
 
   .project-btn-grp {
@@ -1377,7 +1377,7 @@ body {
     font-size: 10px;
     font-weight: 400;
     text-align: center;
-    color: #000;
+    color: #5fc400;
   }
 
   .project-btn-grp {
@@ -1968,7 +1968,7 @@ body {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
-    color: #000;
+    color: #5fc400;
   }
 
   .project-btn-grp {
@@ -2569,6 +2569,7 @@ body {
     font-size: 20px;
     line-height: 30px;
     text-align: center;
+    color: #5fc400;
   }
 
   .project-btn-grp {
