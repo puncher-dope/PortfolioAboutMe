@@ -221,11 +221,11 @@ body {
   }
 
 
-  .project-card:hover .project-img {
+  .project-card:focus .project-img {
     filter: blur(20px);
   }
 
-  .project-card:hover .project-content {
+  .project-card:focus .project-content {
     opacity: 1;
   }
 
