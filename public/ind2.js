@@ -1,3 +1,5 @@
+
+
 const links = document.querySelectorAll('.link');
 const sections = document.querySelectorAll('section');
 
@@ -34,6 +36,10 @@ function moveOr(size) {
   }
 }
 
+
+
+
+
 const form = document.getElementById('form')
 const name = document.getElementById('forName')
 const email = document.getElementById('forEmail')
@@ -67,7 +73,7 @@ function valid(form) {
   }
   function removeError(input) {
     const parent = input.parentNode;
-    console.log(parent);
+    // console.log(parent);
     if (parent.classList.contains('error')) {
       parent.classList.remove('error')
       parent.querySelector('.spanError').remove()
@@ -75,14 +81,62 @@ function valid(form) {
   }
   return result
 }
+
 form.addEventListener('submit', (event) => {
   event.preventDefault()
+  const dataFromForm = new FormData(form);
+  const formDataObj = Object.fromEntries(dataFromForm)
+  console.log(formDataObj);
+  // const newData = new URLSearchParams(formDataObj)
+  // console.log(newData);
+  // for (const [key, value] of newData) {
+  //   console.log(key, value);
+  // }
+
   if (valid(form)) {
-    alert('Ваше сообщение отправлено!!!')
+    fetch('http://localhost:5000/user', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formDataObj)
+    })
+      .then(res => res.json())
+      .then(data => console.log(data))
+    // alert('Ваше сообщение отправлено!!!')
   } else {
     alert('Неправильно введены данные!!!')
   }
 })
+
+// async function sending(formData) {
+//   const res = await fetch('http://localhost:5000/user', {
+//     method: 'POST',
+//     headers: { 'Content-Type': 'application/x-www-fom-urlencoded' },
+//     body: new URLSearchParams(formData)
+//   })
+//   const data = await res.json()
+//   console.log(data);
+// }
+// fetch('http://localhost:5000/user', {
+//   method: 'POST',
+//   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+//   body: new URLSearchParams(formDataObj)
+// })
+//   .then(res => res.json())
+//   .then(data => console.log(data))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 document.getElementById('gitBot').addEventListener('click', () => {
   window.location = 'https://github.com/puncher-dope/trueTeleBot.git'

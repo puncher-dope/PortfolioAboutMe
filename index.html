@@ -200,17 +200,20 @@
       </div>
     </section>
     <section id="sectionContact" class="contact-section nonActive ">
-      <form class="contact-form" id="form" method="post" action="/..">
-        <h1 class="contact-heading">Вы можете написать мне</h1>
+
+      <form class="contact-form" id="form" method="post" action="http://localhost:5000"
+        enctype="application/x-www-form-urlencoded">
+        <h1 class=" contact-heading">Вы можете написать мне</h1>
         <div id="forName" class="inputName">
-          <input type="text" data-required="true" data-min-length="2" data-max-length="14" name="name" id="name"
-            autocomplete="off" placeholder="Ваше имя">
+          <input value="kostya" type="text" data-required="true" data-min-length="2" data-max-length="14" name="name"
+            id="name" autocomplete="off" placeholder="Ваше имя">
         </div>
         <div id="forEmail" class="inputEmail">
-          <input type="email" data-required="true" name="email" id="email" autocomplete="off" placeholder="Ваша почта">
+          <input value="ascgvd@mia.com" type="email" data-required="true" name="email" id="email" autocomplete="off"
+            placeholder="Ваша почта">
         </div>
         <div id="forText" class="inputText">
-          <textarea name="msg" id="msg" placeholder="Ваше сообщение" autocomplete="off"></textarea>
+          <textarea name="msg" id="msg" placeholder="Ваше сообщение" autocomplete="off">ascgvd@mia.com</textarea>
         </div>
         <button type="submit" class="form-submit-btn" id="btnSubmit">Написать</button>
       </form>
@@ -240,8 +243,8 @@
 
 
 
-  <!-- <script src="ind2.js"></script> -->
-  <script src="index.js"></script>
+  <script src="ind2.js"></script>
+  <!-- <script src="index.js"></script> -->
 </body>
 
 </html>
