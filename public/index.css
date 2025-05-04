@@ -484,22 +484,23 @@ body {
 
   .card:nth-child(3),
   .card:nth-child(3):before {
-    background: #ffb84f;
+    background: #565252;
   }
 
   .card:nth-child(4),
   .card:nth-child(4):before {
-    background: #3dca5c;
+    background: #ffae34;
+    ;
   }
 
   .card:nth-child(5),
   .card:nth-child(5):before {
-    background: #565252;
+    background: #4fa0ff;
   }
 
   .card:nth-child(6),
   .card:nth-child(6):before {
-    background: #4fa0ff;
+    background: #3dca5c;
   }
 
   /* ==//////////////////////Вертикальная линия */
@@ -1072,22 +1073,23 @@ body {
 
   .card:nth-child(3),
   .card:nth-child(3):before {
-    background: #ffb84f;
+    background: #565252;
   }
 
   .card:nth-child(4),
   .card:nth-child(4):before {
-    background: #3dca5c;
+    background: #ffae34;
+    ;
   }
 
   .card:nth-child(5),
   .card:nth-child(5):before {
-    background: #565252;
+    background: #4fa0ff;
   }
 
   .card:nth-child(6),
   .card:nth-child(6):before {
-    background: #4fa0ff;
+    background: #3dca5c;
   }
 
   /* ========================================линия */
@@ -1554,10 +1556,10 @@ body {
 
   .download-cv-btn {
     position: absolute;
-    top: 67%;
-    bottom: 25%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 80%;
+    bottom: 10%;
+    left: 10%;
+    transform: translateX(-30%);
     padding: 5px 10px;
     color: #fff;
     border: none;
@@ -1660,22 +1662,23 @@ body {
 
   .card:nth-child(3),
   .card:nth-child(3):before {
-    background: #ffb84f;
+    background: #565252;
   }
 
   .card:nth-child(4),
   .card:nth-child(4):before {
-    background: #3dca5c;
+    background: #ffae34;
+    ;
   }
 
   .card:nth-child(5),
   .card:nth-child(5):before {
-    background: #565252;
+    background: #4fa0ff;
   }
 
   .card:nth-child(6),
   .card:nth-child(6):before {
-    background: #4fa0ff;
+    background: #3dca5c;
   }
 
   /* ========================================линия */
@@ -2145,9 +2148,9 @@ body {
 
   .download-cv-btn {
     position: absolute;
-    top: 67%;
-    bottom: 25%;
-    left: 50%;
+    top: 75%;
+    bottom: 10%;
+    left: 10%;
     transform: translateX(-50%);
     padding: 5px 10px;
     color: #fff;
@@ -2251,22 +2254,23 @@ body {
 
   .card:nth-child(3),
   .card:nth-child(3):before {
-    background: #ffb84f;
+    background: #565252;
   }
 
   .card:nth-child(4),
   .card:nth-child(4):before {
-    background: #3dca5c;
+    background: #ffae34;
+    ;
   }
 
   .card:nth-child(5),
   .card:nth-child(5):before {
-    background: #565252;
+    background: #4fa0ff;
   }
 
   .card:nth-child(6),
   .card:nth-child(6):before {
-    background: #4fa0ff;
+    background: #3dca5c;
   }
 
   /* ========================================линия */
@@ -2639,7 +2643,8 @@ body {
 
   .download-cv-btn {
     position: absolute;
-    bottom: 20px;
+    top: 85%;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -2833,22 +2838,22 @@ body {
 
   .card:nth-child(3),
   .card:nth-child(3):before {
-    background: #ffb84f;
+    background: #565252;
   }
 
   .card:nth-child(4),
   .card:nth-child(4):before {
-    background: #3dca5c;
+    background: #ffae34;
   }
 
   .card:nth-child(5),
   .card:nth-child(5):before {
-    background: #565252;
+    background: #4fa0ff;
   }
 
   .card:nth-child(6),
   .card:nth-child(6):before {
-    background: #4fa0ff;
+    background: #3dca5c;
   }
 
   .card:nth-child(even) .card-body:before {
